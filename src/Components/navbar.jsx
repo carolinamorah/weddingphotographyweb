@@ -33,7 +33,7 @@ const Navbar = () => {
                     muted
                     className="absolute top-0 left-0 w-full h-full object-cover"
                 >
-                    <source src="/video-banner.mp4" type="video/mp4" />
+                    <source src="https://res.cloudinary.com/dt2nddbma/video/upload/v1733796164/video-banner_hrrf8c.mp4" type="video/mp4" />
                     Tu navegador no soporta videos en HTML5.
                 </video>
                 {/* Overlay para mejor visibilidad */}
