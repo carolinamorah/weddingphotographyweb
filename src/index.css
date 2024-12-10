@@ -1,3 +1,80 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: vasion;
+    src: url(../public/f24q3233-vasion-vasion-regular-400.ttf);
+}
+
+.vasion {
+    font-family: vasion;
+}
+
+@font-face {
+    font-family: malden;
+    src: url(../public/f24q4ac03-malden-malden-regular-400.ttf);
+}
+
+.malden {
+    font-family: malden;
+}
+
+@font-face {
+    font-family: mofia;
+    src: url(../public/f24q3233-mofia-mofia-regular-400.ttf);
+}
+
+.mofia {
+    font-family: mofia;
+}
+
+@font-face {
+    font-family: august-serif;
+    src: url(../public/august-stories-august-stories-serif-400.ttf);
+}
+
+.august-serif {
+    font-family: august-serif;
+}
+
+@font-face {
+    font-family: august-script;
+    src: url(../public/august-stories-august-stories-script-400.ttf);
+}
+
+.august-script {
+    font-family: august-script;
+}
+
+@font-face {
+    font-family: schnyder;
+    src: url(../public/SchnyderMLight.ttf);
+}
+
+.schnyder {
+    font-family: schnyder;
+}
+
+.linea {
+    position: relative;
+    display: inline-block;
+    /* Hace que la línea esté en la misma línea que el texto */
+    padding-left: 85px;
+    /* Espacio entre la línea y la palabra */
+}
+
+.linea::before {
+    content: "";
+    /* Necesario para el pseudo-elemento */
+    position: absolute;
+    top: 0;
+    /* Centrado verticalmente respecto al texto */
+    left: 0;
+    width: 120%;
+    /* Ancho de la línea */
+    height: 1px;
+    /* Grosor de la línea */
+    background-color: #ffff;
+
+}
