@@ -4,9 +4,9 @@ module.exports = {
   theme: {
     extend: {},
     colors: {
-      customGold: "#bfaa80",
-      customWhite: "#fff",
-      customNav: "#cbb68c",
+      customGold: "#80744f",
+      customWhite: "#CDCBC7",
+      customNav: "#E5E4E0",
     },
   },
   plugins: [],
