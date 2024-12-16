@@ -17,13 +17,13 @@ const Banner = () => {
                 ></video>
                 <div className="overlay"></div>
             </div>
-            <div className="absolute top-0 left-10 w-full h-full z-1 flex items-center justify-start">
-                <div className="text-customGold text-animation text-9xl font-tight leading-tight text-start schnyder">
-                    <p className="block ms-52">EL ARTE</p>
-                    <p className="block text-customWhite">
-                        <span className='linea'></span> DE NARRAR
+            <div className="absolute top-0 mx-8 w-full h-full z-1 flex items-center justify-start">
+                <div className="text-customGold text-animation text-[200px] font-tight leading-tight text-start schnyder">
+                    <p className="transforma ps-48">TRANSFORMA</p>
+                    <p className="tu-amor text-customWhite ps-20">
+                        TU AMOR
                     </p>
-                    <p className="block text-customWhite">HISTORIAS </p>
+                    <p className="text-customWhite">EN ARTE </p>
                 </div>
             </div>
             {/* Footer como parte del banner */}

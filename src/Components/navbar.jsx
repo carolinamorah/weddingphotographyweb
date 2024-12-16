@@ -13,7 +13,7 @@ const Navbar = () => {
         <div>
             <nav className="navbar">
                 {/* Izquierda */}
-                <div className="navbar-section navbar-left schnyder customNav">
+                <div className="navbar-section navbar-left schnyder text-customNav">
                     <a href="#home">Home</a>
                     <a href="#portfolio">Portfolio</a>
                     <a href="#about">About</a>
@@ -27,7 +27,7 @@ const Navbar = () => {
                 </div>
 
                 {/* Derecha */}
-                <div className="navbar-section navbar-right customNav schnyder">
+                <div className="navbar-section navbar-right text-customNav schnyder">
                     <a href="#faq">Faq</a>
                     <a href="#contact">Contact</a>
                     <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
@@ -44,7 +44,7 @@ const Navbar = () => {
 
                 {/* Menú desplegable */}
                 {isMenuOpen && (
-                    <div className="navbar-menu schnyder customNav">
+                    <div className="navbar-menu schnyder text-customNav">
                         <a href="#home" onClick={() => setIsMenuOpen(false)}>
                             Home
                         </a>

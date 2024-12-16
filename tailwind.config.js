@@ -6,7 +6,7 @@ module.exports = {
     colors: {
       customGold: "#80744f",
       customWhite: "#CDCBC7",
-      customNav: "#E5E4E0",
+      customNav: "#CDCBC7",
     },
   },
   plugins: [],
